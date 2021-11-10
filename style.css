@@ -1,0 +1,71 @@
+body{
+    background: url(horizont.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Odibee Sans','Play','Courier New', Courier, monospace;
+}
+
+.btn{
+    position: relative;
+    height: 3rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    left: 45.5%;
+    font-family:'Odibee Sans','Play','Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    background: wheat;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.subhead{
+    text-align: center;
+    color:darkblue;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 8px solid brown;
+    border-radius: 10px;
+    box-shadow: 8px 3px 15px brown;
+    background-image: url(dirt.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    margin: 1rem auto;
+    cursor:grabbing;
+}
+
+.mole{
+    background-image: url(mole-removebg-preview.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
